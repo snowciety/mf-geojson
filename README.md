@@ -12,5 +12,6 @@ This implementation is based on the ["rewrite"](http://code.google.com/p/mapsfor
 
 
 # The Android Application
-[![screenshot] (https://dl.dropboxusercontent.com/u/9220166/mf-geojson.png)]
 Uses OpenStreetMap.us vector tiles as described here: http://openstreetmap.us/~migurski/vector-datasource/
+![screenshot] (https://dl.dropboxusercontent.com/u/9220166/mf-geojson.png)
+
