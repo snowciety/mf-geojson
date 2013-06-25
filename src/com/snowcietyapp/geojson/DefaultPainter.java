@@ -10,7 +10,7 @@ import org.mapsforge.map.layer.overlay.Polyline;
 
 
 /**
- * Draws a blue line for a LineString and gives a polygon a green filled with
+ * Draws a blue line for a LineString and gives a Polygon a green color with
  * a black stroke.
  *
  */
