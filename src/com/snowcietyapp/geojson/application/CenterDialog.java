@@ -35,6 +35,12 @@ public class CenterDialog extends DialogFragment {
 		builder.setNegativeButton(R.string.cancel, null);
 		builder.setPositiveButton(R.string.set, null);
 		final AlertDialog d = builder.create();
+		
+		/*
+		 * Below we are overriding the behavior of the positive
+		 * button in an AlertDialog so that the dialog doesn't
+		 * disappear if non-valid values are inserted.
+		 */
 		d.setOnShowListener(new DialogInterface.OnShowListener() {
 			
 			@Override
