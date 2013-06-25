@@ -1,0 +1,19 @@
+{"type":"FeatureCollection","features":[
+    {"geometry":{"type": "Point", "coordinates": [100.0, 0.0]}, "properties":{"name": "Test Point"}},
+    {"geometry":{"type":"LineString","coordinates":[
+    [100.0, 0.0],[101.0,1.0]
+    ]},"properties":{"name":"Test LineString"}},
+    {"geometry":{"type":"Polygon","coordinates":[
+    [[100.0, 0.0],[101.0, 0.0],[101.0, 1.0],[100.0, 1.0],[100.0,0.0]]
+    ]},"properties":{"name":"Test Polygon"}},
+    {"geometry":{"type":"MultiPoint","coordinates":[
+    [100.0, 0.0],[101.0, 1.0]
+    ]},"properties":{"name":"Test MultiPoint"}},
+    {"geometry":{"type": "MultiLineString","coordinates":[
+    [ [100.0, 0.0], [101.0, 1.0] ],[ [102.0, 2.0], [103.0, 3.0] ]
+    ]},"properties":{"name":"Test MultiLineString"}},
+    {"geometry":{"type": "MultiPolygon","coordinates": [
+    [[[102.0, 2.0], [103.0, 2.0], [103.0, 3.0], [102.0, 3.0], [102.0, 2.0]]],
+    [[[100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0]],
+     [[100.2, 0.2], [100.8, 0.2], [100.8, 0.8], [100.2, 0.8], [100.2, 0.2]]]
+    ]},"properties":{"name":"Test MultiPolygon"}}]}
