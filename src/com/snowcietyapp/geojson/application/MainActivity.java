@@ -24,10 +24,12 @@ import com.snowcietyapp.geojson.GeoJSONTileSource;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
 
 
 /**
@@ -37,6 +39,7 @@ import android.view.MenuItem;
  * The application uses the OpenStreetMap (OSM) vector tiles as available here:
  * http://openstreetmap.us/~migurski/vector-datasource/
  *
+ * This application only runs Android 3.x ->
  */
 public class MainActivity extends Activity {
 	
@@ -61,6 +64,10 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		//Create transparent ActionBar like in Google Maps
+		requestWindowFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
+		getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#6F000000")));
 		
 		mMapView = new MapView(this);
 		SharedPreferences sp = getSharedPreferences(this.getClass().getSimpleName(), MODE_PRIVATE);
