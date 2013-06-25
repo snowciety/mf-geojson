@@ -10,12 +10,12 @@ This project contains the following:
 # The GeoJSON library
 This implementation is based on the ["rewrite"](http://code.google.com/p/mapsforge/source/browse/?name=rewrite) branch of mapsforge. 
 It adds the ability to use GeoJSON tiles together with mapsforge. The implementation is a bit rough around the edges and is more of a proof of concept.
-ALso, includes the following;
+Also, includes the following;
 * Persistent caching of tiles on disk
 * Ability to create custom "Painters" for GeoJSON layers
 
 # The Android Demo Application
-The demo application is usning OpenStreetMap.us' vector tiles as described here: http://openstreetmap.us/~migurski/vector-datasource/.
+The demo application is using OpenStreetMap.us' vector tiles as described here: http://openstreetmap.us/~migurski/vector-datasource/.
 Requires Android SDK API 11 or higher to compile.
 ![screenshot] (https://dl.dropboxusercontent.com/u/9220166/mf-geojson.png)
 
