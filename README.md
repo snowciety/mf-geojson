@@ -24,6 +24,7 @@ Requires Android SDK API 11 or higher to compile.
 * Android Development Tools (ADT)
 * Android SDK (only tested with API 17)
 * mapsforge-map 0.4.0 ("rewrite" branch) [build instructions here](http://code.google.com/p/mapsforge/wiki/GettingStartedDevelopers#Build_the_project)
+* [Apache Commons IO 2.4](http://commons.apache.org/proper/commons-io/download_io.cgi)
 
 ## Importing project into Eclipse
 * Clone this repo
